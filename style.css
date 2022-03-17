@@ -1,0 +1,246 @@
+*{
+    box-sizing: border-box;
+    padding: 20px;   
+}
+
+/* box sizing for all round is one command as shown above. */
+
+/* *{
+    box-sizing: border-box;
+    padding: 0px, 0px, 0px, 0px;
+
+} 
+
+The box sizing above shows one way of placing padding etc it runs in a clockwise direction so top, right, bottom, left*/
+
+
+
+
+
+/* This is just selecting new properties for the heading etc. ALWAYS WORK TOP TO BOTTOM can also use multiples with this by adding , so we can have h1, h2, h3, P and this will change that selection */
+
+
+/* 
+*{
+    If you want to change everything use this function, so for example if you have a background colour for the whole site you input it here, * changes everything to the selected image or colour so overrides all previous commands 
+
+} */
+
+
+#navbar{
+    display:flex;
+    justify-content: center;
+    color: white;
+    background-color:darkslategrey;
+    font-size: 40px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+
+}
+#navbar2{
+    display:flex;
+    justify-content: center;
+    color: white;
+    background-color:rgb(0, 0, 0);
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+
+}
+
+/* use of flex box above, adding flex direction and allign items change the orientation of the selected area. In this case its my nav bar on my website*/
+
+
+
+/* navbar is now an id. Here we are only referencing the color of the navbar and the text size. */
+.home{
+    background-image: url("TRack.jpg") ;
+    background-repeat: no-repeat;
+    background-size:auto;
+    background-attachment:fixed;
+}
+.crs{
+    width: 100%;
+}
+
+.simgrid{
+    width: 30%;
+}
+
+.simgrid2{
+    width: 20%;
+    background-color: white;
+}
+
+.ILTR{
+    width: 12%;
+}
+
+.dex{
+    justify-content: right;
+    width: 20%;
+}
+
+.crstop{
+    width: 10%;
+}
+
+.discord{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+
+.f1logo{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width: 30%;
+    margin-inline-start: 10%;
+}
+
+.f1logo2{
+    display: flex;
+    justify-content: left;
+    align-items:left;
+    width: 20%;
+    margin-inline-start: 5%;
+}
+
+.f1logo3{
+    display: flex;
+    justify-content: left;
+    align-items:left;
+    width: 20%;
+    margin-inline-start: 10%;
+}
+
+.sponsormid{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width: 5%;
+    margin-inline-start: 10%;
+}
+
+.sponsorleft{
+    display: flex;
+    justify-content: left;
+    align-items:left;
+    width: 5%;
+    margin-inline-start: 5%;
+}
+
+.sponsorright{
+    display: flex;
+    justify-content: left;
+    align-items:left;
+    width: 5;
+    margin-inline-start: 20%;
+}
+
+.f2logo{
+    justify-content: center;
+    width: 40%;
+}
+
+.aclogo{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    width: 50%;
+}
+
+#games{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+
+
+#games2{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+#discord {
+    display:flex;
+    justify-content: center;
+    width:20%;
+
+}
+
+/* this selects a particular image, In this case its selecting the Crs Class in index and changing the image size. if i wanted to change all the image sizes together id either remove the class called CRS in index and then replace .crs with .img  */
+
+.white{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: black;
+}
+
+.white2{
+    justify-content: center;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: black;
+}
+
+
+.white3{
+    display: grid;
+    justify-content: right;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: black;
+}
+
+.white4{
+    display: flex;
+    align-items:center;
+    flex-wrap:wrap;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 125%;
+    background-color: black;
+}
+
+.white5{
+    display: flex;
+    justify-content: center;
+    color:black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: white;
+}
+
+.red{
+    color: red;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+
+.blue{
+    color: blue;
+}
+
+.large {
+    font-size: larger;
+}
+
+.centre{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.conblue{
+    display: grid;
+    justify-content: center;
+    color: black;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: darkslategrey;
+}
+/* . calls a class. SO if referenced in the HTML as a class this can be changed in CSS  we can add multiple commands to a text as well. So in index we now have class="red large centre" this calls the colour red, the font size and the font family*/
+
+
+
